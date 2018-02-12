@@ -1,0 +1,549 @@
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-light);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-medium);
+
+body {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-style {
+    color: #000000; 
+    font-weight: bold;
+}
+
+.logo-address-style {
+    padding-top: 20px;
+    text-align: right;
+    font-family: "Cambria";
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-default {
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    margin: 0!important;
+}
+
+.nav-style {
+    background: #ff6600;
+    border: 1px solid #CCCCCC;
+    font-family: "Cambria";
+    color: #FFFFFF;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-default .navbar-brand {    
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.navbar-default .nav li a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a.current {
+    color: #00cc33;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #00cc33;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { 
+    background-color: transparent; 
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.dropdown-menu {
+    background: #ff6600;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #00cc33;
+    background-color: #CC3300;
+}
+
+/*.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FFFFFF;
+}*/
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, {
+    color: #00cc33;
+}
+
+/* slider */
+
+.nopadding {
+    padding: 0;
+}
+
+.padding-bot {
+    padding-bottom: 10px;
+}
+
+.padding-top {
+    padding-top: 50px;
+}
+
+.padding-for-prod {
+    padding-top: 30px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.carousel-caption-name { 
+    bottom: 30%;
+}
+
+.carousel-caption-name h2 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #ff6600;
+    text-shadow: 5px 5px 5px black;
+}
+
+.carousel-caption-name h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff6600;
+    text-shadow: 5px 5px 5px black;
+}
+
+.carousel-caption-name p {
+    font-size: 40px;
+    color: #00cc33;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+.slider {
+    z-index:200;
+}
+
+.icon-descr {
+    padding: 15px;
+    font-family: "Cambria";
+}
+
+.grey-bgr {
+    background: #CCCCCC;
+}
+
+.row-title {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #ff6600;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.border-bot {
+    border-top: 1px solid #ff6600;
+    border-bottom: 1px solid #ff6600;
+}
+
+.work-block {
+    border: 1px solid #ff6600;    
+    margin: 0 auto;
+}
+
+.work-block img {
+    display: inline;
+}
+
+.work-block-size {
+    /*width: 400px;*/
+}
+
+.work-href {
+    display: inline-block;
+    padding-top: 5px;
+    font-family: "Cambria";
+    font-size: 25px;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.work-href:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+.description {
+    font-family: "Cambria";
+    font-size: 20px;
+    color: #000000;
+}
+
+.inline {
+    display: inline;
+}
+
+.org-frame {
+    border: 1px solid #ff6600;
+}
+
+.decr-name {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.small-description {
+    font-family: "Cambria";
+    font-size: 18px;
+    color: #000000;
+}
+
+.video {
+    border: 1px solid #ff6600;
+    width: 400px;
+    height: auto;
+}
+
+.video_caption {
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    text-decoration-line: underline;
+}
+
+.black-bgr {
+    background: #000000;
+}
+
+.footer-descr {
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-family: "Cambria";
+    font-size: 18px;
+}
+
+.orange {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.footer-addr {
+    text-align: right;
+}
+
+/* about */
+
+.panel-orange {
+    border-color: #ff6600;;
+}
+
+/* comments */
+
+.comm-padding {
+    padding-top: 8%;
+}
+
+/* windows */
+
+.cling {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+.cling:hover {
+    color: #00cc33;
+}
+
+.cling:visited {
+    color: #ff6600;
+}
+
+.non-ref:hover {
+    text-decoration: none;
+}
+
+.step-name {
+    color: #ff6600;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.active-window {
+    border: 1px solid #ff6600;
+}
+
+.org-btn {
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.goback {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+.panel-hidden {
+    display: none;
+}
+
+.warning {
+    color: red;
+}
+
+.price-style {
+    text-align: center;
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* MEDIA-queries */
+
+@media (max-width: 510px) {
+    .sing-size-controller {
+        text-align: center;
+    }
+    
+    .sing-size-controller li {
+        display: inline-block;
+    }
+    
+    .carousel-caption-name { 
+        bottom: 10%;
+    }
+    
+    .carousel-caption-name h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name h3 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name p {
+        font-size: 15px;
+        color: #00cc33;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    .padding-for-prod {
+        padding-top: 0px;
+    }
+    
+    .decr-name {
+        color: #ff6600;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .small-description {
+        font-family: "Cambria";
+        font-size: 15px;
+        color: #000000;
+    }
+    
+    .footer-addr {
+        text-align: center;
+    }
+    
+    .comm-padding {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 511px) and (max-width: 767px) {
+    .sing-size-controller {
+        text-align: center;
+    }
+    
+    .sing-size-controller li {
+        display: inline-block;
+    }
+    
+    .carousel-caption-name { 
+        bottom: 15%;
+    }
+    
+    .carousel-caption-name h2 {
+        font-size: 45px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name h3 {
+        font-size: 35px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name p {
+        font-size: 20px;
+        color: #00cc33;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    .padding-for-prod {
+        padding-top: 0px;
+    }
+    
+    .footer-addr {
+        text-align: center;
+    }
+    
+    .comm-padding {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sing-size-controller {
+        text-align: center;
+    }
+    
+    .logo-address-text {
+        font-size: 15px;
+    }
+    
+    .carousel-caption-name { 
+        bottom: 20%;
+    }
+    
+    .carousel-caption-name h2 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name h3 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name p {
+        font-size: 25px;
+        color: #00cc33;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    .padding-for-prod {
+        padding-top: 0px;
+    }
+    
+    .footer-addr {
+        text-align: center;
+    }
+    
+    .comm-padding {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-caption-name { 
+        bottom: 20%;
+    }
+    
+    .carousel-caption-name h2 {
+        font-size: 70px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name h3 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name p {
+        font-size: 30px;
+        color: #00cc33;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    .decr-name {
+        color: #ff6600;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .small-description {
+        font-family: "Cambria";
+        font-size: 15px;
+        color: #000000;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1469px)  {
+    .carousel-caption-name { 
+        bottom: 30%;
+    }
+    
+    .carousel-caption-name h2 {
+        font-size: 70px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name h3 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #ff6600;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .carousel-caption-name p {
+        font-size: 30px;
+        color: #00cc33;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+}
+
+/* --------- */
