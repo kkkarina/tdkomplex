@@ -327,7 +327,16 @@ body {
 
 /* MEDIA-queries */
 
-@media (max-width: 510px) {
+@media (max-width: 510px) {    
+    .logo-address-style {
+        padding-top: 20px;
+        text-align: right;
+        font-family: "Cambria";
+        font-weight: bold;
+        color: #000000;
+        font-size: 17px;
+    }
+    
     .sing-size-controller {
         text-align: center;
     }
@@ -377,12 +386,29 @@ body {
         color: #000000;
     }
     
+    .footer-descr {
+        padding-top: 10px;
+        color: #FFFFFF;
+        font-family: "Cambria";
+        font-size: 15px;
+    }
+    
     .footer-addr {
         text-align: center;
     }
     
     .comm-padding {
         padding-top: 0;
+    }
+    
+    .video {
+        border: 1px solid #ff6600;
+        width: 280px;
+        height: auto;
+    }
+    
+    .btn-font{
+        font-size: 15px;
     }
 }
 
